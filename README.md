@@ -4,7 +4,7 @@ En el marco del challenge, se construyó una aplicación de gestión de proyecto
 
 ## Descripción
 
-La aplicación permite gestionar proyectos en las áreas de **Investigación y Desarrollo (R+D)**, **Calidad de Software (Software Quality)**, **Plataforma POS (POS Platform)**, **Ingeniería Full Stack (Full Stack Engineering)**, **E-Commerce**, y **Lenguajes y Tecnologías**. Los usuarios pueden visualizar el listado de los proyectos para cada área junto con un detalle, mientras que los administradores pueden además editarlo y eliminarlos.
+La aplicación permite gestionar proyectos en las áreas de **Investigación y Desarrollo (R+D)**, **Calidad de Software (Software Quality)**, **Plataforma POS (POS Platform)**, **Ingeniería Full Stack (Full Stack Engineering)**, **E-Commerce**, y **Lenguajes y Tecnologías**. Los usuarios pueden visualizar el listado de los proyectos para cada área junto con un detalle, mientras que los administradores pueden además editarlos y eliminarlos.
 
 ## Características
 
