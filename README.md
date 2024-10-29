@@ -57,7 +57,9 @@ Ingresar con las credenciales de cualquiera de los dos usuarios mencionados ante
 
 ## Estructura del Proyecto
 
+- `src/components`: Hooks y funciones comunes a toda la aplicación.
 - `src/components`: Componentes reutilizables de la aplicación.
-- `src/pages`: Vistas principales para cada área de la aplicación.
-- `src/routes`: Configuración de rutas y autenticación.
-- `src/services`: Servicios para la gestión de datos de proyectos.
+- `src/layout`: Templates de la aplicación.
+- `src/pages`: Vistas principales de la aplicación.
+- `src/routes`: Configuración de rutas.
+- `src/services`: Servicios de la aplicación.
