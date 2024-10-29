@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Challenge: Gestión Eldar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En el marco del challenge, se construyó una aplicación de gestión de proyectos desarrollada en **ReactJS** con **TypeScript** y utilizando **Material UI** para la interfaz de usuario. La aplicación permite la administración de proyectos en las diferentes áreas de la empresa, con roles de usuario y permisos específicos.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+La aplicación permite gestionar proyectos en las áreas de **Investigación y Desarrollo (R+D)**, **Calidad de Software (Software Quality)**, **Plataforma POS (POS Platform)**, **Ingeniería Full Stack (Full Stack Engineering)**, **E-Commerce**, y **Lenguajes y Tecnologías**. Los usuarios pueden visualizar el listado de los proyectos para cada área junto con un detalle, mientras que los administradores pueden además editarlo y eliminarlos.
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Roles y Permisos**:
+  - **Admin**: Usuario con permisos de administración, puede editar y eliminar proyectos.
+  - **User**: Usuario con permisos de solo lectura, puede visualizar los proyectos en todas las áreas pero no realizar modificaciones.
+  
+- **Gestión de Proyectos**:
+  - Listado de proyectos junto con su área asignada, título, descripción, responsable y nivel de progreso.
+  - Edición de proyectos existentes.
+  - Vista de detalles del proyecto.
+  
+- **Autenticación**:
+  - La aplicación tiene dos usuarios predefinidos para el ingreso inicial:
+    - **Admin**:
+      - Username: `eldarAdmin`
+      - Password: `challenge`
+    - **User**:
+      - Username: `eldarUser`
+      - Password: `challenge`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Para ejecutar este proyecto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+2. Instala las dependencias:
+    ```bash
+    npm install
 
-### `npm run build`
+3. Inicia la aplicación:
+    ```bash
+    npm run start
+    
+4. Ingresar a [text](http://localhost:3000)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso de la Aplicación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Ingreso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ingresar con las credenciales de cualquiera de los dos usuarios mencionados anteriormente.
 
-### `npm run eject`
+### Navegación por Roles
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **eldarAdmin**: Este usuario tendrá acceso a todas las funciones de la aplicación, incluyendo la edición y eliminación de proyectos.
+- **eldarUser**: Este usuario podrá visualizar proyectos en cada área, pero no realizar modificaciones.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estructura del Proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/components`: Componentes reutilizables de la aplicación.
+- `src/pages`: Vistas principales para cada área de la aplicación.
+- `src/routes`: Configuración de rutas y autenticación.
+- `src/services`: Servicios para la gestión de datos de proyectos.
