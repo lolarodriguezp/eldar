@@ -32,8 +32,8 @@ Para ejecutar este proyecto localmente:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/lolarodriguezp/eldar.git
+   cd eldar
 2. Instala las dependencias:
     ```bash
     npm install
