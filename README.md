@@ -42,7 +42,7 @@ Para ejecutar este proyecto localmente:
     ```bash
     npm run start
     
-4. Ingresar a [text](http://localhost:3000)
+4. Ingresar a http://localhost:3000
 
 ## Uso de la Aplicación
 
